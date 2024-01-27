@@ -13,8 +13,9 @@ Raspberry Pi recently came out with a Pi Zero 2 W. The board specs are phenomina
 Learning Distribution Symantics is no easy task with creating the first neural network for speech and response. Distribution Symantic modeling is an interesting take on words. You can find details of Distribution Symantic Modeling on Wikipedia https://en.wikipedia.org/wiki/Distributional_semantics . Its a entirely different approach than the sensor of photo recognition. There are many scholar writings I have been combing through such as this one "Distributional semantic modeling: a revised technique to train term/word vector space models applying the ontology-related approach." by Vitalii Velychko<br> https://www.researchgate.net/publication/339713296_Distributional_semantic_modeling_a_revised_technique_to_train_termword_vector_space_models_applying_the_ontology-related_approach 
 He explores a reasonably interesting Library in Python that I will begin working with, Vec2graph -- a Python library for visualizing word embeddings (term embeddings in my case) as dynamic and interactive graphs. This is also being explored by Cornell University and a few other scholars. It is a good read on how words explored. I also have the PDF loaded into the "Furby Resource" Folder above if you want to have easy access to that information. This further's my journey into building a RNN network. Reccurent Neural Network, LSTM Long term short memory. This uses attention mechanism to catch importance in phrases from Natural Language inputs. You can read more about that in this link. https://www.mdpi.com/2073-8994/13/2/214#B12-symmetry-13-00214
 Considering I have never done this before, I am going to start following this approach as a base set up. Part one says to create a Dataset using a large wikipedia data dump set, with Python Gensim to parallelize and process the dump. I need storage off site from my computer because that dump is huge.<br> ((Hardware needed))<br>
-
-<h3>Part Two of the Furby Brain</h3>
-<h4>Visual Recognition</h4>
+NVMe's are highly suggested for hardware and the site for Wikipedia to do the dump download is listed below:
+(https://en.wikipedia.org/wiki/Wikipedia:Database_download)
+This is a process I hope no one minds following along with me. I will gladly share the steps as I walk threw them and the code to get this going.
+<h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
 
