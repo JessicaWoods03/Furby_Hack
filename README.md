@@ -22,6 +22,8 @@ GEFORCERTX 4060<br>
 I have been working on configuring these hardware specs before I begin working with the wikipedia dump, as to ensure the tower I have can handle the load.<br>
 This would be minimium specs required for this project to get started, I am sure this will still be slightly slower, but once configured, optimizations will be made.
 This is a process I hope no one minds following along with me. I will gladly share the steps as I walk threw them and the code to get this going.
+Sorry I haven't worked on this in a while...personal things came up-
+I am back at it now-
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
 
