@@ -18,7 +18,7 @@ NVMe's are highly suggested for hardware and the site for Wikipedia to do the du
 Before I can do the code to sort threw the dump, I needed to upgrade my Linux tower with more go juice in the hardware, its not the recommended hardware, but the stats on this hardware is enough to do small tasks.
 ![geforcertx4060](https://github.com/JessicaWoods03/Furby_Hack/assets/48572600/acce7fde-e433-44a4-91a0-b290dbecd041)
 NVME of 4TB<br>
-GEFORCERTX 4060<br>
+GEFORCERTX 4060 Ti (its important to ensure you have atleast 16VRAM) <br>
 I have been working on configuring these hardware specs before I begin working with the wikipedia dump, as to ensure the tower I have can handle the load.<br>
 This would be minimium specs required for this project to get started, I am sure this will still be slightly slower, but once configured, optimizations will be made.
 This is a process I hope no one minds following along with me. I will gladly share the steps as I walk threw them and the code to get this going.
