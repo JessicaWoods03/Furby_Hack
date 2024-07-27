@@ -36,7 +36,12 @@ I am back at it now-
 Next is configuring Apache Spark on Ubuntu for handling the xml files which are huge.<br>
 PLS - don't use ChatGPT [[warning it will not work no matter what it tells you to do]]<br>
 https://www.virtono.com/community/tutorial-how-to/how-to-install-apache-spark-on-ubuntu-22-04-and-centos/ <br>
--us that site it works.
+-us that site it works.<br>
+Wiki-dump site - <br>
+https://dumps.wikimedia.org/enwiki/20240701/
+<br>
+enwiki-20240701-pages-meta-history1.xml-p1p812.bz2 2.4 GB <br>
+enwiki-20240701-pages-meta-history1.xml-p813p1460.bz2 2.0 GB <br>
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
 
