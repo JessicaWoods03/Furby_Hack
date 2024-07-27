@@ -33,6 +33,10 @@ nvtop<br>
 ![updated](https://github.com/user-attachments/assets/989b78ac-31aa-4855-9ebc-4f4bdb09d241)
 
 I am back at it now-
+Next is configuring Apache Spark on Ubuntu for handling the xml files which are huge.<br>
+PLS - don't use ChatGPT [[warning it will not work no matter what it tells you to do]]<br>
+https://www.virtono.com/community/tutorial-how-to/how-to-install-apache-spark-on-ubuntu-22-04-and-centos/ <br>
+-us that site it works.
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
 
