@@ -1,60 +1,51 @@
 # still ran into memory issues chunking this down so resorted to streaming options
 #so this should stream it so its going to hopefully work
 #still had to adjust with swap files to do this program because it still blew up LOL
-# changed swap file to 4GB which is unique option for linux
+# changed swap file to 16GB which is unique option for linux
 
 from lxml import etree
 import os
+import logging
 
-def split_xml(input_file, output_dir, chunk_size):
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+def split_xml(input_file, output_dir, chunk_size=100):
     os.makedirs(output_dir, exist_ok=True)  # Create output directory if it doesn't exist
-
-    # Use the namespace for parsing
-    ns = {'mw': 'http://www.mediawiki.org/xml/export-0.11/'}
-
     context = etree.iterparse(input_file, events=('end',), tag='{http://www.mediawiki.org/xml/export-0.11/}page')
-    file_count = 0
-    current_chunk = []
-    
-    print(f"Starting to split {input_file} into chunks...")
+    chunk = []
+    count = 0
+    file_index = 0  # Index for naming chunk files
 
-    try:
-        for event, elem in context:
-            # Convert the current <page> element to a string and add it to the chunk
-            current_chunk.append(etree.tostring(elem, pretty_print=True, encoding='unicode'))
+    for event, elem in context:
+        chunk.append(etree.tostring(elem).decode())
+        count += 1
 
-            # Clear the element to free up memory
-            elem.clear() 
+        if count >= chunk_size:
+            # Save the chunk to a new file
+            with open(os.path.join(output_dir, f'chunk_{file_index}.xml'), 'w') as f:
+                f.write("<mediawiki>\n" + "\n".join(chunk) + "\n</mediawiki>")
+            logger.info(f"Saved chunk_{file_index}.xml with {count} pages.")
+            file_index += 1  # Increment file index for the next chunk
+            chunk = []
+            count = 0
 
-            # If we reach the chunk size, write to a new file
-            if len(current_chunk) >= chunk_size:
-                chunk_file_path = os.path.join(output_dir, f'chunk_{file_count}.xml')
-                with open(chunk_file_path, 'w', encoding='utf-8') as f:
-                    f.write('<pages>\n')  # Root element for the chunk
-                    f.write('\n'.join(current_chunk))
-                    f.write('\n</pages>')
-                print(f"Created {chunk_file_path} with {len(current_chunk)} pages.")
-                file_count += 1
-                current_chunk = []  # Reset for the next chunk
+        # Clear the element to save memory
+        elem.clear()
 
-        # Write any remaining pages to a new file
-        if current_chunk:
-            chunk_file_path = os.path.join(output_dir, f'chunk_{file_count}.xml')
-            with open(chunk_file_path, 'w', encoding='utf-8') as f:
-                f.write('<pages>\n')
-                f.write('\n'.join(current_chunk))
-                f.write('\n</pages>')
-            print(f"Created {chunk_file_path} with {len(current_chunk)} pages.")
-
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-    print(f"Finished processing. Created {file_count + 1} chunk files.")
+    # Save any remaining pages
+    if chunk:
+        with open(os.path.join(output_dir, f'chunk_{file_index}.xml'), 'w') as f:
+            f.write("<mediawiki>\n" + "\n".join(chunk) + "\n</mediawiki>")
+        logger.info(f"Saved chunk_{file_index}.xml with {len(chunk)} pages.")
 
 # Usage
 input_file = '/home/jessica/Documents/enwiki-20240701-pages-meta-history1.xml'
 output_dir = '/home/jessica/Documents/xml_chunks'
 chunk_size = 100  # Adjust chunk size to lower if necessary
 
+# Split the XML file
 split_xml(input_file, output_dir, chunk_size)
+
 
