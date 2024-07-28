@@ -1,5 +1,7 @@
 # still ran into memory issues chunking this down so resorted to streaming options
 #so this should stream it so its going to hopefully work
+#still had to adjust with swap files to do this program because it still blew up LOL
+# changed swap file to 4GB which is unique option for linux
 
 from lxml import etree
 import os
