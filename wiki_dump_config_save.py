@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 #initialize spark
 logger.info("Start Spark session..")
-spark = SparkSession.builder.appName("XML Processing").getOrCreate()
+spark = SparkSession.builder.appName("XML Processing").config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0").getOrCreate()
 
 # fingers crossed, load XML
 logger.info("Loading XML data...")
