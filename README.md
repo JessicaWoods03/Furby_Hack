@@ -42,6 +42,14 @@ https://dumps.wikimedia.org/enwiki/20240701/
 <br>
 enwiki-20240701-pages-meta-history1.xml-p1p812.bz2 2.4 GB <br>
 enwiki-20240701-pages-meta-history1.xml-p813p1460.bz2 2.0 GB <br>
+This is kind of hard to configure so I had to make sure that my tower specs were set properly to handle this much data. <br>
+Total Memory: 62 GiB<br>
+Used Memory: 4.2 GiB<br>
+Free Memory: 40 GiB<br>
+Total Swap: 15 GiB<br>
+Used Swap: 0 B<br>
+Bash: watch free -h
+
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
 
