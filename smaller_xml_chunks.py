@@ -1,3 +1,6 @@
+# still ran into memory issues chunking this down so resorted to streaming options
+#so this should stream it so its going to hopefully work
+
 from lxml import etree
 import os
 
@@ -10,16 +13,16 @@ def split_xml(input_file, output_dir, chunk_size):
     context = etree.iterparse(input_file, events=('end',), tag='{http://www.mediawiki.org/xml/export-0.11/}page')
     file_count = 0
     current_chunk = []
-    page_count = 0  # Counter for pages
-
-    # Debugging message for starting the split
+    
     print(f"Starting to split {input_file} into chunks...")
 
     try:
         for event, elem in context:
+            # Convert the current <page> element to a string and add it to the chunk
             current_chunk.append(etree.tostring(elem, pretty_print=True, encoding='unicode'))
-            elem.clear()  # Clear the element to free memory
-            page_count += 1  # Increment page count
+
+            # Clear the element to free up memory
+            elem.clear() 
 
             # If we reach the chunk size, write to a new file
             if len(current_chunk) >= chunk_size:
@@ -44,11 +47,12 @@ def split_xml(input_file, output_dir, chunk_size):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-    print(f"Total <page> elements processed: {page_count}")
+    print(f"Finished processing. Created {file_count + 1} chunk files.")
 
 # Usage
 input_file = '/home/jessica/Documents/enwiki-20240701-pages-meta-history1.xml'
 output_dir = '/home/jessica/Documents/xml_chunks'
-chunk_size = 1000  # Adjust chunk size as needed
+chunk_size = 100  # Adjust chunk size to lower if necessary
 
 split_xml(input_file, output_dir, chunk_size)
+
