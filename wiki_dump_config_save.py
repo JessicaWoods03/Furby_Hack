@@ -19,7 +19,7 @@ spark = SparkSession.builder.appName("XML Processing").config("spark.jars.packag
 
 # fingers crossed, load XML
 logger.info("Loading XML data...")
-xml_df = spark.read.format('xml').option("rowTag", "page").load('/home/jessica/Documents/enwiki-20240701-pages-meta-history1.xml')\
+xml_df = spark.read.format('xml').option("rowTag", "page").load('/home/jessica/Documents/enwiki-20240701-pages-meta-history1.xml')
 logger.info("XML data loaded successfully.")
 # use bash :spark-submit --packages com.databricks:spark-xml_2.12:0.13.0 wiki_dump_config_save.py
 
