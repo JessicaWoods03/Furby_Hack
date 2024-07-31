@@ -1,3 +1,5 @@
+# so this saves multiple element trees into text files
+# for testing the language model
 import os
 import logging
 from lxml import etree
