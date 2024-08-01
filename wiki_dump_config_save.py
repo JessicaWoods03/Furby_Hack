@@ -2,10 +2,12 @@
 # for testing the language model
 import os
 import logging
+import pyspark
 from lxml import etree
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
 
+print(pyspark.__version__)
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
