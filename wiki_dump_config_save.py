@@ -21,7 +21,6 @@ def parse_xml(row):
     return (title, text)
 
 # Initialize Spark session
-
 spark = SparkSession.builder \
     .appName("XML Processing") \
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
