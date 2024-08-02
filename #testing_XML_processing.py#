@@ -1,0 +1,24 @@
+import pyspark
+from lxml import etree
+from pyspark.sql import SparkSession
+from pyspark import SparkConf
+
+
+# trouble shooting SparkConf bugs to create etrees in the wiki_dump_conf_save.py file
+
+#this is added configurations of sparksession to see if this is the issue
+conf = SparkConf() \
+    .set("spark.sql.shuffle.partitions", "200") \
+    .set("spark.defalut.parallelism", "200") \
+    .set("spark.executor.memory", "4g") \
+    .set("spark.drive.memory", "4g")
+
+# Initialize Spark session, this part of the code works by itself
+spark = SparkSession.builder \
+    .appName("XML Processing") \
+    .config(conf) \
+    .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
+    .getOrCreate()
+
+print("Spark session created successfully!")
+spark.stop()
