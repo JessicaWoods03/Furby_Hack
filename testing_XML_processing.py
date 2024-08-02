@@ -11,10 +11,6 @@ from pyspark import SparkConf, SparkContext
 # Initialize Spark session
 spark = SparkSession.builder \
     .appName("XML Processing") \
-    .config("spark.sql.shuffle.partitions", "200") \
-    .config("spark.default.parallelism", "200") \
-    .config("spark.executor.memory", "4g") \
-    .config("spark.driver.memory", "4g") \
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
     .getOrCreate()
 
