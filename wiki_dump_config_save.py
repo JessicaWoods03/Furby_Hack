@@ -21,15 +21,9 @@ def parse_xml(row):
     return (title, text)
 
 # Initialize Spark session
-conf = SparkConf() \
-    .set("spark.sql.shuffle.partitions", "200") \
-    .set("spark.default.parallelism", "200") \
-    .set("spark.executor.memory", "4g") \
-    .set("spark.driver.memory", "4g")
 
 spark = SparkSession.builder \
     .appName("XML Processing") \
-    .config(conf) \
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
     .getOrCreate()
 
