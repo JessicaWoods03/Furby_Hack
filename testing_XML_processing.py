@@ -9,11 +9,23 @@ from pyspark import SparkConf, SparkContext
 #this is added configurations of sparksession to see if this is the issue
 # Define Spark configuration
 # Initialize Spark session
+# Initialize Spark configuration
+
+# Create Spark session
+from pyspark.sql import SparkSession
+
+# Initialize Spark session with configurations
 spark = SparkSession.builder \
     .appName("XML Processing") \
+    .config("spark.master", "local[24]") \  # Use all 24 threads
+    .config("spark.executor.memory", "6g") \
+    .config("spark.driver.memory", "20g") \
+    .config("spark.cores.max", "24") \  # Set max cores to 24
+    .config("spark.default.parallelism", "24") \ 
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
     .getOrCreate()
 
+# Your code here...
 
 
 Print("Spark session created successfully!")
