@@ -22,7 +22,7 @@ def parse_xml(row):
 
 # Initialize Spark session
 spark = SparkSession.builder.appName("XML Processing") \
-    .config("spark.master", "local[42]") \
+    .config("spark.master", "local[24]") \
     .config("spark.executor.memory", "6g") \
     .config("spark.driver.memory", "20g") \
     .config("spark.cores.max", "24") \
