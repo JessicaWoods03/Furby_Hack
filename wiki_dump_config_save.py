@@ -33,7 +33,6 @@ spark = SparkSession.builder.appName("XML Processing") \
     .getOrCreate()
 
 spark.conf.set("spark.sql.shuffle.partitions", "200")  # Default is 200; adjust if necessary
-spark.conf.set("spark.default.parallelism", "24")  # Set to the number of cores available
 
 # Set the output directory where the chunks are stored
 output_dir = '/home/jessica/Documents/xml_chunks'
