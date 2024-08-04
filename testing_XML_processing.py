@@ -15,13 +15,14 @@ from pyspark import SparkConf, SparkContext
 from pyspark.sql import SparkSession
 
 # Initialize Spark session with configurations
-spark = SparkSession.builder \
-    .appName("XML Processing") \
-    .config("spark.master", "local[24]") \  # Use all 24 threads
+spark = SparkSession.builder.appName("XML Processing") \
+    .config("spark.master", "local[42]") \
     .config("spark.executor.memory", "6g") \
-    .config("spark.driver.memory", "20g") \
-    .config("spark.cores.max", "24") \  # Set max cores to 24
-    .config("spark.default.parallelism", "24") \ 
+    .config("spark.driver.memory","20g") \
+    .config("spark.cores.max", "24") \
+    .config("spark.default.parallelism", "24") \
+    .config("spark.eventLog.enabled", "true") \
+    .config("spark.eventLog.dir", "/tmp/spark-events") \
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
     .getOrCreate()
 
