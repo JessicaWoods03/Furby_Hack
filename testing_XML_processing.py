@@ -37,9 +37,14 @@ else:
 # Process each chunk with Spark
 xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
 
+# more bugs
+# Print schema to verify column names
+print("DataFrame Schema:")
+xml_df.printSchema()
 
+xml_df.show(truncate=False)
 # Stop Spark session
-Print("Spark session created successfully!")
+print("Spark session created successfully!")
 spark.stop()
 
 #finally works
