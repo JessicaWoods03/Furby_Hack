@@ -41,7 +41,7 @@ xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
 # Print schema to verify column names
 print("DataFrame Schema:")
 xml_df.printSchema()
-
+print(xml_df.columns)
 xml_df.show(truncate=False)
 # Stop Spark session
 print("Spark session created successfully!")
