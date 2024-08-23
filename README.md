@@ -48,7 +48,8 @@ Used Memory: 4.2 GiB<br>
 Free Memory: 40 GiB<br>
 Total Swap: 15 GiB<br>
 Used Swap: 0 B<br>
-Bash: watch free -h
+Bash: watch free -h<br>
+Reached an big error with schemas in the xml chunk files. https://www.youtube.com/watch?v=aB_koPUNqfo this Youtube video helped with debugging the schemas of the namespace issues in building a element tree.
 
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
