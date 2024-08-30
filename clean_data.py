@@ -24,5 +24,6 @@ def extract_and_clean_large_xml(xml_file, output_file):
         if buffer:
             out_file.write('\n'.join(buffer) + '\n')
 
-# Example usage
-extract_and_clean_large_xml('/home/jessica/Documents/xml_chunks/chunk_0.xml', '/home/jessica/Documents/cleaned_chunk_0.txt')
+# Example usage, for memory sake I did it one at a time instead of looping threw each file
+# in the xml chunks folder
+extract_and_clean_large_xml('/home/jessica/Documents/xml_chunks/chunk_4.xml', '/home/jessica/Documents/cleaned_chunk_4.txt')
