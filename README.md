@@ -50,6 +50,10 @@ Total Swap: 15 GiB<br>
 Used Swap: 0 B<br>
 Bash: watch free -h<br>
 Reached an big error with schemas in the xml chunk files. https://www.youtube.com/watch?v=aB_koPUNqfo this Youtube video helped with debugging the schemas of the namespace issues in building a element tree.
+<img width="1071" alt="Screenshot 2024-09-05 at 8 44 43 PM" src="https://github.com/user-attachments/assets/b411411e-8d35-4518-a57e-de0f361e6c9c">
+<img width="649" alt="Screenshot 2024-09-05 at 8 44 58 PM" src="https://github.com/user-attachments/assets/3760fc52-b885-47ca-893d-bf93e951b023">
+
+
 
 <h3>Part Two of the Furby Brain</h3> 
 This part is yet to be explored but hints on a few short cuts involve the possibility of a Pixy2 camera.
