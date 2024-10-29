@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Page-1" id="fs0tFx5_32oBVVqjo97R">
+    <mxGraphModel dx="744" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iavHRUywOIUlISRb4jvW-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Fields in ChromaDB:&lt;/h1&gt;&lt;div&gt;Data in ChromaDB: {&#39;ids&#39;: [_], &#39;embeddings&#39; : ___, &#39;metadatas&#39; : [__], &#39;documents&#39;: [___], &#39;uris&#39;: ____, &#39;data&#39;: ____, &#39;included&#39; : [&#39;meadatas&#39;, &#39;documents&#39;]}&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-2" value="ids" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-3" value="unique identifier" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-2">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-6" value="embeddings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="410" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-7" value="numerical representation of the documents, for the vector in which it resides. Vectors are important for semantics." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-6">
+          <mxGeometry y="30" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-10" value="metadatas, - encompassing ontology and semantics" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="370" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-11" value="&#39;namespace&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-10">
+          <mxGeometry y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-12" value="&#39;topic&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-10">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-13" value="&lt;div&gt;&#39;semantic_tags&#39; : [_]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;parent_class&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;sub_classes&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;type&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&#39;timestamp&#39;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-10">
+          <mxGeometry y="110" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-14" value="documents" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-15" value="actual text document" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-14">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-18" value="data" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iavHRUywOIUlISRb4jvW-19" value="&#39;positive_opinion&#39;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&#39;negative_opinion&#39;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="iavHRUywOIUlISRb4jvW-18">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
