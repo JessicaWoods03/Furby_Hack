@@ -49,13 +49,6 @@ Total Swap: 15 GiB<br>
 Used Swap: 0 B<br>
 Bash: watch free -h<br>
 Reached an big error with schemas in the xml chunk files. https://www.youtube.com/watch?v=aB_koPUNqfo this Youtube video helped with debugging the schemas of the namespace issues in building a element tree. <br>
-<h3>Setting up the Vector Database:</h3>
-I wanted to find a way to access large amounts of data efficiently in a vector database. I also miss opinions, in many of the AI sitcoms that has motivated me to build an opinion base on my AI even if it is a mock-up of random saved opinions, that are limited, due to storage limitations. My AI doesn't have to agree with the users opinion even if the opinion is drawn from the vector database as most relvant to the users input. Personally I am not a fan of 
-agreeable people. I like K.I.T.T. from the 1970s...the AI car-<br>
-Also important note:<br>
-This kind of data structure and organization helps with studying trends as well. Indexing a vector database, on redirects or important subject matter, IE, if the marketing trend is on sports gear, it can help you understand what to market and when to market it if your data is properly indexed and updated.
-<img width="1071" alt="Screenshot 2024-09-05 at 8 44 43 PM" src="https://github.com/user-attachments/assets/b411411e-8d35-4518-a57e-de0f361e6c9c">
-<img width="649" alt="Screenshot 2024-09-05 at 8 44 58 PM" src="https://github.com/user-attachments/assets/3760fc52-b885-47ca-893d-bf93e951b023">
 
 
 
