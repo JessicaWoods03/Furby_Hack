@@ -41,12 +41,12 @@ print(f"XML data loaded from {chunk_file}")
 # test namespace splitting before I run it threw the wiki_dump_config_save.py file
 
 # Extract Namespace
-xml_df_with_namespace = xml_df.withColumn('namespace', split(col('title'), ':').getItem(0)
+xml_df_with_namespace = xml_df.withColumn('namespace', split(col('page.title'), ':').getItem(0))
 
 # Show the schema to verify the extraction
 xml_df_with_namespace.printSchema()
 # show rows
-xml_df_with_namespace.select("title", "namespace").show(5)
+xml_df_with_namespace.select("page.title", "namespace").show(5)
 
 #show specific namespace like Afghanistan
 namespace = "Afghanistan"
@@ -62,7 +62,7 @@ for row in xml_df_with_namespace.collect():
     print(f"Title: {row['title']}, Namespace: {row['namespace']}")
 
 
-root = xml_df.
+# root = xml_df.
 # Stop Spark session
 print("Spark session created successfully!")
 spark.stop()
