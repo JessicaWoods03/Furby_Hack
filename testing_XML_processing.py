@@ -43,8 +43,24 @@ print(f"XML data loaded from {chunk_file"}")
 # Extract Namespace
 xml_df_with_namespace = xml_df.withColumn('namespace', split(col('title'), ':').getItem(0)
 
-# Show the schema to verify the extraction\
+# Show the schema to verify the extraction
 xml_df_with_namespace.printSchema()
+# show rows
+xml_df_with_namespace.select("title", "namespace").show(5)
+
+#show specific namespace like Afghanistan
+namespace = "Afghanistan"
+namespace_df = xml_df_with_namespace.filter(xml_df_with_namespace["namespace"] == namespace)
+
+# show filtered data
+namespace_df.show(5)
+
+# Print titles and namespace to verify that it works
+
+print("Titles and Namespaces")
+for row in xml_df_with_namespace.collect():
+    print(f"Title: {row['title']}, Namespace: {row['namespace']}")
+
 
 root = xml_df.
 # Stop Spark session
