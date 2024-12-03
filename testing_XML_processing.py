@@ -18,8 +18,9 @@ from pyspark.sql import SparkSession
 # Initialize Spark session with configurations
 spark = SparkSession.builder.appName("XML Processing") \
     .config("spark.master", "local[24]") \
-    .config("spark.executor.memory", "6g") \
+    .config("spark.executor.memory", "10g") \
     .config("spark.driver.memory","20g") \
+    .config("spark.sql.files.maxPartitionBytes", "128MB") \
     .config("spark.eventLog.dir", "/tmp/spark-events") \
     .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
     .getOrCreate()
@@ -39,10 +40,11 @@ with open(chunk_file, 'r') as f:
     print(f.read(200))  # prints first 200 characters of the file
 
 # Process each chunk with Spark
-# xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
-# print(f"XML data loaded from {chunk_file}")
+xml_df = spark.read.format('xml').option("rowTag", "page").load(chunk_file)
+print(f"XML data loaded from {chunk_file}")
 # test namespace splitting before I run it threw the wiki_dump_config_save.py file
-# xml_df.printSchema()
+xml_df.printSchema()
+xml_df.show(5, truncate=False)
 
 # Extract Namespace
 #xml_df_with_namespace = xml_df.withColumn('namespace', split(col('page.title'), ':').getItem(0))
@@ -77,3 +79,17 @@ spark.stop()
 # --conf "spark.eventLog.dir=/tmp/spark-events" \
 # --packages com.databricks:spark-xml_2.12:0.13.0 \
 #  testing_XML_processing.py
+
+# adjusting bash command
+# --conf "spark.executor.extraJavaOptions=-XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+# --conf "spark.driver.extraJavaOptions=-XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+# --conf "spark.dynamicAllocation.enabled=true" \
+# --conf "spark.dynamicAllocation.minExecutors=1" \
+# --conf "spark.dynamicAllocation.maxExecutors=10" \
+# --conf "spark.dynamicAllocation.initialExecutors=4"
+# --conf "spark.executor.memory=10g"   --conf "spark.executor.cores=4"   --conf "spark.driver.memory=10g"
+# --conf "spark.sql.shuffle.partitions=200"   --conf "spark.eventLog.enabled=true"   --conf "spark.eventLog.dir=/tmp/spark-events"
+# --packages com.databricks:spark-xml_2.12:0.13.0   testing_XML_processing.py
+
+
+
