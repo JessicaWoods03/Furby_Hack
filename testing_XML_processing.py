@@ -37,7 +37,7 @@ else:
 
 # Process each chunk with Spark
 xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
-print(f"XML data loaded from {chunk_file"}")
+print(f"XML data loaded from {chunk_file}")
 # test namespace splitting before I run it threw the wiki_dump_config_save.py file
 
 # Extract Namespace
