@@ -2,6 +2,7 @@ import pyspark
 from lxml import etree
 from pyspark.sql import SparkSession
 from pyspark import SparkConf, SparkContext
+from pyspark.sql.functions import col, split
 import os
 
 # trouble shooting SparkConf bugs to create etrees in the wiki_dump_conf_save.py file
@@ -36,9 +37,14 @@ else:
 
 # Process each chunk with Spark
 xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
-
+print(f"XML data loaded from {chunk_file"}")
 # test namespace splitting before I run it threw the wiki_dump_config_save.py file
 
+# Extract Namespace
+xml_df_with_namespace = xml_df.withColumn('namespace', split(col('title'), ':').getItem(0)
+
+# Show the schema to verify the extraction\
+xml_df_with_namespace.printSchema()
 
 root = xml_df.
 # Stop Spark session
