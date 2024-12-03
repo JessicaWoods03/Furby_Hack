@@ -34,32 +34,36 @@ if os.path.exists(chunk_file):
     print(f"File exists: {chunk_file}")
 else:
     print(f"File does not exist: {chunk_file}")
+    
+with open(chunk_file, 'r') as f:
+    print(f.read(200))  # prints first 200 characters of the file
 
 # Process each chunk with Spark
-xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
-print(f"XML data loaded from {chunk_file}")
+# xml_df = spark.read.format('xml').option("rowTag", "article").load(chunk_file)
+# print(f"XML data loaded from {chunk_file}")
 # test namespace splitting before I run it threw the wiki_dump_config_save.py file
+# xml_df.printSchema()
 
 # Extract Namespace
-xml_df_with_namespace = xml_df.withColumn('namespace', split(col('page.title'), ':').getItem(0))
+#xml_df_with_namespace = xml_df.withColumn('namespace', split(col('page.title'), ':').getItem(0))
 
 # Show the schema to verify the extraction
-xml_df_with_namespace.printSchema()
+#xml_df_with_namespace.printSchema()
 # show rows
-xml_df_with_namespace.select("page.title", "namespace").show(5)
+#xml_df_with_namespace.select("page.title", "namespace").show(5)
 
 #show specific namespace like Afghanistan
-namespace = "Afghanistan"
-namespace_df = xml_df_with_namespace.filter(xml_df_with_namespace["namespace"] == namespace)
+#namespace = "Afghanistan"
+#namespace_df = xml_df_with_namespace.filter(xml_df_with_namespace["namespace"] == namespace)
 
 # show filtered data
-namespace_df.show(5)
+#namespace_df.show(5)
 
 # Print titles and namespace to verify that it works
 
 print("Titles and Namespaces")
-for row in xml_df_with_namespace.collect():
-    print(f"Title: {row['title']}, Namespace: {row['namespace']}")
+#for row in xml_df_with_namespace.collect():
+    #print(f"Title: {row['title']}, Namespace: {row['namespace']}")
 
 
 # root = xml_df.
