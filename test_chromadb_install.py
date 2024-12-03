@@ -13,6 +13,6 @@ ids = ["1"]
 collection.add(documents=documents, ids=ids)
 
 # check data has been added
-data = collection.get()
+ data = collection.get()
 print("Data in ChromaDB:", data)
 spark.stop()

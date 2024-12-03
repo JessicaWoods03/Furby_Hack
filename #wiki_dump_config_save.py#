@@ -36,9 +36,8 @@ output_dir = '/home/jessica/Documents/xml_chunks'
 
 # Dynamically collect chunk files for processing
 chunk_files = [os.path.join(output_dir, f) for f in os.listdir(output_dir) if f.endswith('.xml')]
+
 # Start processing the chunks by namespace now that we have this working properly
-
-
 # Process each chunk with Spark
 for chunk_file in chunk_files:
     logger.info(f"Loading XML data from {chunk_file}...")
