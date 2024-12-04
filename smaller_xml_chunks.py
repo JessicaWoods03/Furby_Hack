@@ -1,51 +1,89 @@
-# still ran into memory issues chunking this down so resorted to streaming options
-#so this should stream it so its going to hopefully work
-#still had to adjust with swap files to do this program because it still blew up LOL
-# changed swap file to 16GB which is unique option for linux
-
-from lxml import etree
 import os
-import logging
+from lxml import etree
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Maximum size for each chunk (in bytes)
+MAX_SIZE = 1000000000  # 1GB size limit for each chunk
+current_size = 0
 
-def split_xml(input_file, output_dir, chunk_size=100):
-    os.makedirs(output_dir, exist_ok=True)  # Create output directory if it doesn't exist
-    context = etree.iterparse(input_file, events=('end',), tag='{http://www.mediawiki.org/xml/export-0.11/}page')
-    chunk = []
-    count = 0
-    file_index = 0  # Index for naming chunk files
+# File paths
+input_file = "chunk_0.xml"
+output_dir = "output_chunks"  # Directory where the chunks will be saved
 
-    for event, elem in context:
-        chunk.append(etree.tostring(elem).decode())
-        count += 1
+# Create output directory if it doesn't exist
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
-        if count >= chunk_size:
-            # Save the chunk to a new file
-            with open(os.path.join(output_dir, f'chunk_{file_index}.xml'), 'w') as f:
-                f.write("<mediawiki>\n" + "\n".join(chunk) + "\n</mediawiki>")
-            logger.info(f"Saved chunk_{file_index}.xml with {count} pages.")
-            file_index += 1  # Increment file index for the next chunk
-            chunk = []
-            count = 0
+# Parse the large XML file
+context = etree.iterparse(input_file, events=("start", "end"))
 
-        # Clear the element to save memory
-        elem.clear()
+# Initialize variables
+page_buffer = []  # To hold the pages as they are parsed
+namespace_subject = None  # To hold the combined namespace_subject for the filename
+output_file = None  # To hold the current output file path
+file_counter = 1  # Counter to generate file suffixes (e.g., _1.xml, _2.xml)
 
-    # Save any remaining pages
-    if chunk:
-        with open(os.path.join(output_dir, f'chunk_{file_index}.xml'), 'w') as f:
-            f.write("<mediawiki>\n" + "\n".join(chunk) + "\n</mediawiki>")
-        logger.info(f"Saved chunk_{file_index}.xml with {len(chunk)} pages.")
+# Start processing the XML file
+for event, element in context:
+    if event == "start" and element.tag == "{http://www.mediawiki.org/xml/export-0.11/}page":
+        # Start of a <page> element
+        title_element = element.find("{http://www.mediawiki.org/xml/export-0.11/}title")
+        if title_element is not None:
+            # Extract the namespace and subject from the title (separate by '/')
+            namespace, subject = title_element.text.split('/', 1)  # Split at the first '/'
+            namespace_subject = f"{namespace}_{subject.replace('/', '_')}"  # Combine namespace and subject
 
-# Usage
-input_file = '/home/jessica/Documents/enwiki-20240701-pages-meta-history1.xml'
-output_dir = '/home/jessica/Documents/xml_chunks'
-chunk_size = 100  # Adjust chunk size to lower if necessary
+        # Set output filename based on the namespace_subject and file_counter
+        if namespace_subject:
+            output_file = os.path.join(output_dir, f"{namespace_subject}_{file_counter}.xml")
+            
+            # Check if the file already exists, append the XML declaration only if it's a new file
+            if current_size == 0 and not os.path.exists(output_file):
+                with open(output_file, "wb") as out_f:
+                    out_f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+                    out_f.write(b'<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/">\n')
 
-# Split the XML file
-split_xml(input_file, output_dir, chunk_size)
+        page_buffer.append(element)
+    
+    elif event == "end" and element.tag == "{http://www.mediawiki.org/xml/export-0.11/}page":
+        # When we reach the end of a <page> element, process the page
+        page_size = len(etree.tostring(element))
+
+        # Check if adding this page exceeds the max size
+        if current_size + page_size > MAX_SIZE:
+            # If we exceed the size, close the current chunk and start a new one
+            with open(output_file, "ab") as out_f:
+                out_f.write(b"</mediawiki>\n")
+
+            # Increment the file counter for the next file
+            file_counter += 1
+
+            # Reset the output file path with the updated counter
+            output_file = os.path.join(output_dir, f"{namespace_subject}_{file_counter}.xml")
+            
+            # Start a new chunk file with the XML declaration and <mediawiki> tag
+            with open(output_file, "wb") as out_f:
+                out_f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+                out_f.write(b'<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/">\n')
+
+            # Reset current size after starting a new file
+            current_size = 0
+
+        # Add the current page to the chunk
+        with open(output_file, "ab") as out_f:
+            out_f.write(etree.tostring(element, pretty_print=True))
+        
+        current_size += page_size
+        page_buffer.clear()  # Clear the buffer for the next page
+
+    # Clear the element to save memory
+    element.clear()
+
+# Close the last chunk with </mediawiki>
+if output_file:
+    with open(output_file, "ab") as out_f:
+        out_f.write(b"</mediawiki>\n")
+
+print(f"Splitting complete. Files saved in {output_dir}.")
+
 
 
