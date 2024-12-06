@@ -1,25 +1,28 @@
 import os
 from lxml import etree
+from pyspark.sql import SparkSession
 
 # Maximum size for each chunk (in bytes)
 MAX_SIZE = 1000000000  # 1GB size limit for each chunk
 current_size = 0
 
 # File paths
-input_file = "chunk_0.xml"
-output_dir = "output_chunks"  # Directory where the chunks will be saved
+input_file = "/home/jessica/Documents/xml_chunks/chunk_0.xml"
+output_dir = " /home/jessica/Documents/output_chunks"  # Directory where the chunks will be saved
 
 # Create output directory if it doesn't exist
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
+spark = SparkSession.builder.appName("XML Processing").getOrCreate()
+
 
 # Parse the large XML file
 context = etree.iterparse(input_file, events=("start", "end"))
 
 # Initialize variables
 
-namespace_subject = None  # To hold the combined namespace_subject for the filename
-output_file = None  # To hold the current output file path
+namespace_subject = None  
+output_file = None  
 file_counter = 1  # Counter to generate file suffixes (e.g., _1.xml, _2.xml)
 
 # Start processing the XML file
@@ -83,5 +86,6 @@ if output_file:
 
 print(f"Splitting complete. Files saved in {output_dir}.")
 
+spark.stop()
 
 
