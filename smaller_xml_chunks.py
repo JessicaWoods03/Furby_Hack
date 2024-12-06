@@ -42,7 +42,6 @@ for event, element in context:
                     out_f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
                     out_f.write(b'<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/">\n')
 
-        page_buffer.append(element)
     
     elif event == "end" and element.tag == "{http://www.mediawiki.org/xml/export-0.11/}page":
         # When we reach the end of a <page> element, process the page
@@ -73,7 +72,6 @@ for event, element in context:
             out_f.write(etree.tostring(element, pretty_print=True))
         
         current_size += page_size
-        page_buffer.clear()  # Clear the buffer for the next page
 
     # Clear the element to save memory
     element.clear()
