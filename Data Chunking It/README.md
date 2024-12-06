@@ -34,5 +34,11 @@ Checking the schema so I can divide it more:<br>
 (pyspark_env)jessica@jessica-z690-UD-AX-DDR4:"~/Documents/GitHub/Furby_Hack$ spark-submit smaller_xml_chunks.py</b><br>
 
 The reason it is chunked twice, is to ensure data integrity and schema integrety and that the tree's hold integrity per page. It is hard to see that or check back on that if you do not have a seperate file to check it with. This overall performance produced 464 xml files.<br>
-<img width="813" alt="Screenshot 2024-12-06 at 6 27 54 PM" src="https://github.com/user-attachments/assets/e0a57651-21e8-4cc5-8bbb-4c8365eeaa73">
+<img width="700" alt="Screenshot 2024-12-06 at 6 27 54 PM" src="https://github.com/user-attachments/assets/e0a57651-21e8-4cc5-8bbb-4c8365eeaa73">
+<br>
+<h1>My biggest learning curve</h1>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img width="200" alt="Screenshot 2024-12-06 at 6 41 21 PM" src="https://github.com/user-attachments/assets/3c9231bf-d539-47ed-a662-14f83ec763e1">
+
+My biggest learning challenge is chasing Java Heap Space Errors, were you run out of memory. Then understanding how to correctly parse the schema to namespaces. Its my favorite bugs in this. Some of the greatest liberties that come from using notebooks you can't really do with larger sets of data. Big Data processing requires a really strong editor, and spark.<br>
+
 
