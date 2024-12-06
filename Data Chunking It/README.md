@@ -19,3 +19,12 @@ https://medium.com/@agusmahari/pyspark-step-by-step-guide-to-installing-pyspark-
 <br>
 <br>
 <b>Please note linux os is picky, and you will encounter many bugs getting this environment set up, as I did, may not even be the same bugs, but work threw it! </b>
+
+<h4>Chunking by stages in different sizes:</h4>
+The first bit of Chunking was done in element trees by size still keeping parameters accurate. That gave me 5 Chunks.<br>
+<b>Please Note:</b>  that your bash commands and your spark parameters must be tuned to your hardware specs, or you will get java heap errors and run out of memory. Do not do any kind of buffering, that will cause memory issues as well.
+<br>
+The final break of Chunking was by "Namespace" and "Subject" to produce KB sized data chunks that I can analyze on Jyputer Notebook, so I can clean it, encode it and start to build the ontology with the data per subject for the Furby.
+What some of the command lines look like running it threw Ubuntu OS, with personal config hardware: <br>
+<b>(pyspark_env)jessica@jessica-z690-UD-AX-DDR4:"~/Documents/GitHub/Furby_Hack$ spark-submit smaller_xml_chunks.py</b><br>
+The reason it is chunked twice, is to ensure data integrity and schema integrety and that the tree's hold integrity per page. It is hard to see that or check back on that if you do not have a seperate file to check it with. This overall performance produced 464 xml files.
