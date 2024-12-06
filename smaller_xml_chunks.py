@@ -2,6 +2,17 @@ import os
 from lxml import etree
 from pyspark.sql import SparkSession
 
+
+# Initialize Spark session with configurations
+spark = SparkSession.builder.appName("XML Processing") \
+    .config("spark.master", "local[24]") \
+    .config("spark.executor.memory", "10g") \
+    .config("spark.driver.memory","20g") \
+    .config("spark.sql.files.maxPartitionBytes", "128MB") \
+    .config("spark.eventLog.dir", "/tmp/spark-events") \
+    .config("spark.jars.packages", "com.databricks:spark-xml_2.12:0.13.0") \
+    .getOrCreate()
+
 # Maximum size for each chunk (in bytes)
 MAX_SIZE = 1000000000  # 1GB size limit for each chunk
 current_size = 0
@@ -13,7 +24,7 @@ output_dir = " /home/jessica/Documents/output_chunks"  # Directory where the chu
 # Create output directory if it doesn't exist
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
-spark = SparkSession.builder.appName("XML Processing").getOrCreate()
+
 
 
 # Parse the large XML file
