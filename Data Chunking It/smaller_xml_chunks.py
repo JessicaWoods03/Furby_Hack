@@ -18,7 +18,7 @@ MAX_SIZE = 1000000000  # 1GB size limit for each chunk
 current_size = 0
 
 # File paths
-input_file = "/home/jessica/Documents/xml_chunks/chunk_0.xml"
+input_file = "/home/jessica/Documents/xml_chunks/chunk_5.xml"
 output_dir = "/home/jessica/Documents/xml_chunks"  # Directory where the chunks will be saved
 
 # Create output directory if it doesn't exist
