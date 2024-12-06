@@ -17,7 +17,7 @@ if not os.path.exists(output_dir):
 context = etree.iterparse(input_file, events=("start", "end"))
 
 # Initialize variables
-page_buffer = []  # To hold the pages as they are parsed
+
 namespace_subject = None  # To hold the combined namespace_subject for the filename
 output_file = None  # To hold the current output file path
 file_counter = 1  # Counter to generate file suffixes (e.g., _1.xml, _2.xml)
