@@ -25,5 +25,12 @@ The first bit of Chunking was done in element trees by size still keeping parame
 <br>
 The final break of Chunking was by "Namespace" and "Subject" to produce KB sized data chunks that I can analyze on Jyputer Notebook, so I can clean it, encode it and start to build the ontology with the data per subject for the Furby.
 What some of the command lines look like running it threw Ubuntu OS, with personal config hardware: <br>
-<b>(pyspark_env)jessica@jessica-z690-UD-AX-DDR4:"~/Documents/GitHub/Furby_Hack$ spark-submit smaller_xml_chunks.py</b><br>
+&nbsp<br>
+I don't think I have the original chunk file available..so I just added my github history before I started chasing the bug. chunking_history_file.py<br>
+&nbsp<br>
+Checking the schema so I can divide it more:<br>
+<b>(pyspark_env) jessica@jessica-Z690-UD-AX-DDR4:~/Documents/GitHub/Furby_Hack$ spark-submit   --conf "spark.executor.extraJavaOptions=-XX:+UseG1GC -XX:MaxGCPauseMillis=200 -Xlog:gc*:file=/tmp/spark-gc-executor.log"   --conf "spark.driver.extraJavaOptions=-XX:+UseG1GC -XX:MaxGCPauseMillis=200 -Xlog:gc*:file=/tmp/spark-gc-driver.log"   --conf "spark.dynamicAllocation.enabled=true"   --conf "spark.dynamicAllocation.minExecutors=1"   --conf "spark.dynamicAllocation.maxExecutors=20"   --conf "spark.dynamicAllocation.initialExecutors=4"   --conf "spark.executor.memory=16g"   --conf "spark.executor.cores=4"   --conf "spark.driver.memory=16g"   --conf "spark.sql.shuffle.partitions=300"   --conf "spark.sql.files.maxPartitionBytes=128MB"   --conf "spark.eventLog.enabled=true"   --conf "spark.eventLog.dir=/tmp/spark-events"   --packages com.databricks:spark-xml_2.12:0.13.0   testing_XML_processing.py<br>
+&nbsp<br>
+(pyspark_env)jessica@jessica-z690-UD-AX-DDR4:"~/Documents/GitHub/Furby_Hack$ spark-submit smaller_xml_chunks.py</b><br>
+
 The reason it is chunked twice, is to ensure data integrity and schema integrety and that the tree's hold integrity per page. It is hard to see that or check back on that if you do not have a seperate file to check it with. This overall performance produced 464 xml files.
