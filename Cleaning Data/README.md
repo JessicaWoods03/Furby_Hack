@@ -15,6 +15,7 @@ Functional<br>
 Comparison<br></b>
 For example, if "Aalborg" is a "seaport" and you want it to be bidirectional, you can add both directions.
 Defining these relationships gives the same oppurtunities as SQL's one-to-one, one-to-many and many-to-many. The Primary keys, and Foreign Keys are stored in the 'meta_data' as Parent_nodes and child_nodes. This is a great migration of using SQL properties inside a vector database for proper distribution. <br>
+I beleive you can theoretically use this concept to compress SQL databases into vector storage spaces in ChromaDB if structured properly.
 From this point on handling data...it comes down to if you want to have a directional graph or a bidirectional graph when adding these to meta data. Below is a Youtube video of what the difference is in these node graphs:<br>
 <img width="1012" alt="Screenshot 2025-01-22 at 10 43 01 AM" src="https://github.com/user-attachments/assets/a4725679-47aa-454d-a5c6-d93739be851a" />
 https://www.youtube.com/watch?v=1oVuQsxkhY0
