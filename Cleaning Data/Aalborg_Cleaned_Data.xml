@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <row>
+    <index>0</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'Aalborg is a city'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>1</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'seaport of Denmark'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>2</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'the seat of a bishop'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>3</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'chief town of the county of North Jutland'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>4</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'on the south bank of the Limfjord'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>5</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'which connects the North Sea'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>6</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'the Kattegat'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>7</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'Aalborg is the 4th largest city in Denmark after Copenhagen'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>8</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'Aarhus'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>9</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg'</title>
+    <content>' Aalborg is a city and seaport of Denmark, the seat of a bishop, and chief town of the county of North Jutland, on the south bank of the Limfjord, which connects the North Sea and the Kattegat. Aalborg is the 4th largest city in Denmark after Copenhagen, Aarhus and Odense'</content>
+    <links>'da:Ålborg', 'Danish language|Danish', 'Denmark', 'Lutheran', 'bishop', 'North Jutland', 'Limfjord', 'North Sea', 'Kattegat', 'Copenhagen', 'Aarhus', 'Odense'</links>
+    <original_fragment>'Odense'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>10</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'The situation is typical of the north of Jutland'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>11</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'To the west the Limfjord broadens into an irregular lake'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>12</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'with low'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>13</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'marshy shores'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>14</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'many islands'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>15</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Northwest is the Store Vildmose'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>16</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'a swamp where the mirage is seen in summer'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>17</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Southeast lies the similar Lille Vildmose'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>18</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Store Vildmose was drained'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>19</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'farmed in the beginning of the 20th century'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>20</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Lille Vildmose is now the largest moor in Denmark'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>21</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'A railway connects Aalborg with Hjørring'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>22</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Frederikshavn'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>23</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'Skagen to the north'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>24</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'with Aarhus'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>25</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'the lines from Germany to the south as well as Copenhagen in the east over Funen'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>26</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'The harbour is good'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>27</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'safe'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>28</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Surroundings'</title>
+    <content>'The situation is typical of the north of Jutland. To the west the Limfjord broadens into an irregular lake, with low, marshy shores and many islands. Northwest is the Store Vildmose, a swamp where the mirage is seen in summer. Southeast lies the similar Lille Vildmose. Store Vildmose was drained and farmed in the beginning of the 20th century, and Lille Vildmose is now the largest moor in Denmark. A railway connects Aalborg with Hjørring, Frederikshavn and Skagen to the north, and with Aarhus and the lines from Germany to the south as well as Copenhagen in the east over Funen. The harbour is good and safe, though difficult to access'</content>
+    <links>'Store Vildmose', 'Lille Vildmose', 'Hjørring', 'Frederikshavn', 'Skagen', 'Aarhus', 'Germany', 'Copenhagen', 'Funen'</links>
+    <original_fragment>'though difficult to access'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>29</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Industry'</title>
+    <content>'Aalborg is a growing industrial and commercial centre, exporting grain and fish. Aalborg center of a growing telecomunications industry originating from the Aalborg University'</content>
+    <links>'Aalborg University'</links>
+    <original_fragment>'Aalborg is a growing industrial'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>30</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Industry'</title>
+    <content>'Aalborg is a growing industrial and commercial centre, exporting grain and fish. Aalborg center of a growing telecomunications industry originating from the Aalborg University'</content>
+    <links>'Aalborg University'</links>
+    <original_fragment>'commercial centre'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>31</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Industry'</title>
+    <content>'Aalborg is a growing industrial and commercial centre, exporting grain and fish. Aalborg center of a growing telecomunications industry originating from the Aalborg University'</content>
+    <links>'Aalborg University'</links>
+    <original_fragment>'exporting grain'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>32</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Industry'</title>
+    <content>'Aalborg is a growing industrial and commercial centre, exporting grain and fish. Aalborg center of a growing telecomunications industry originating from the Aalborg University'</content>
+    <links>'Aalborg University'</links>
+    <original_fragment>'fish'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>33</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Industry'</title>
+    <content>'Aalborg is a growing industrial and commercial centre, exporting grain and fish. Aalborg center of a growing telecomunications industry originating from the Aalborg University'</content>
+    <links>'Aalborg University'</links>
+    <original_fragment>'Aalborg center of a growing telecomunications industry originating from the Aalborg University'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>34</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'An old castle'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>35</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'some picturesque houses of the 17th century remain'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>36</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'The cathedral Budolphi church dates mostly from the middle of the 18th century'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>37</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'while the Vor Frue church was partially burnt in 1894'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>38</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'but the foundation of both is of the 14th century or earlier'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>39</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'There are also an ancient hospital'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>40</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'a museum of art'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>41</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'antiquities'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>42</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'On the north side of the Limfjord is Nørresundby'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>43</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'connected with Aalborg by a road bridge'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>44</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'by an iron railway bridge as well as by a motorwaytunnel under the Limfjord'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>45</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'Aalborg received town privileges in 1342'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>46</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'the bishopric dates from 1554'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>47</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'Note that both spellings forms Aalborg'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+  <row>
+    <index>48</index>
+    <timestamp>2003-07-14 09:23:44+00:00</timestamp>
+    <meta_namespace>'Geographical Entities'</meta_namespace>
+    <semantic_tags>'Aalborg Municipality', 'City', 'Administrative Division', 'Political Entity', 'Region'</semantic_tags>
+    <meta_topic>'Municipalities in Denmark', 'Geographical Locations', 'Cities in North Jutland'</meta_topic>
+    <title>'Aalborg_Architecture'</title>
+    <content>'An old castle and some picturesque houses of the 17th century remain. The cathedral Budolphi church dates mostly from the middle of the 18th century, while the Vor Frue church was partially burnt in 1894, but the foundation of both is of the 14th century or earlier. There are also an ancient hospital and a museum of art and antiquities. On the north side of the Limfjord is Nørresundby, connected with Aalborg by a road bridge, by an iron railway bridge as well as by a motorwaytunnel under the Limfjord. Aalborg received town privileges in 1342 and the bishopric dates from 1554. Note that both spellings forms Aalborg and Ålborg are used in Danish language. ==External links== http://www.visitaalborg.com/ Aalborg Tourist office http://www.auc.dk/ Aalborg University'</content>
+    <links>'17th century', 'Budolphi', '18th century', 'Vor Frue', '1894', '14th century', 'Nørresundby', '1342', '1554'</links>
+    <original_fragment>'Ålborg are used in Danish language'</original_fragment>
+    <sentence_restructured/>
+    <relationship/>
+  </row>
+</root>
