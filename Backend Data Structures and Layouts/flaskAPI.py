@@ -16,6 +16,7 @@ df = pd.read_xml(xml_file_path)
 collection = client.create_collection(name="node_graphs_collection")
 
 # Sample DataFrame (you already have this `df_grouped_nodes` with 'node_graph' column)
+# need to debug this....Going to notebooks to debug and check structure of it in the database-
 
 
 df_grouped_nodes = pd.DataFrame(data)
