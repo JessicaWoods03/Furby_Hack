@@ -9,5 +9,9 @@ that data is also imparative. This folder encompasses the structures of the back
 My secret ingredient..."The Opinion Algorythm" will never be posted but is a part of backend data structures- <br>
 A girl should always keep atleast one secret!<br>
 (Well GitHub is also making me keep more secrets LOL! I have been flagged to be excessive in this work, and not all files are loading anymore.) <br>
-What the API and Pipelines are structured to look like.
-<img width="430" height="326" alt="Screenshot 2025-08-21 at 3 02 23 PM" src="https://github.com/user-attachments/assets/b8664fd6-762b-4246-a54f-04862cfcbdba" />
+<img width="898" height="315" alt="Screenshot 2025-08-21 at 3 06 04 PM" src="https://github.com/user-attachments/assets/57e28337-212d-4112-8a82-3f22e8efe287" />
+<br>
+What the API and Pipelines are structured to look like.<br>
+<img width="430" height="326" alt="Screenshot 2025-08-21 at 3 02 23 PM" src="https://github.com/user-attachments/assets/b8664fd6-762b-4246-a54f-04862cfcbdba" /><br>
+
+I chose one of the pipelines to be environment so I could face an interesting challenge of observation data, to build relationships and ontologies with.
