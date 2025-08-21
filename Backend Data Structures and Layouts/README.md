@@ -15,3 +15,4 @@ What the API and Pipelines are structured to look like.<br>
 <img width="430" height="326" alt="Screenshot 2025-08-21 at 3 02 23 PM" src="https://github.com/user-attachments/assets/b8664fd6-762b-4246-a54f-04862cfcbdba" /><br>
 
 I chose one of the pipelines to be environment so I could face an interesting challenge of observation data, to build relationships and ontologies with.
+I will add one of my pipelines on here so you can see how it works in the api. The most part of this is on my big handmade tower offline on emacs gui, on a Ubuntu server. Mini Llama is best for nodegraph relationship work in semantics. GPT will tell you to use matplotlib, but I have a file listed here were you can see the constraints and limitation of that and other contemporary mapping applications in python.
