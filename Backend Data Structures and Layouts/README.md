@@ -7,4 +7,7 @@ that data is also imparative. This folder encompasses the structures of the back
 <img width="676" alt="ChromaDB layout" src="https://github.com/user-attachments/assets/8a431aec-fc82-4f1b-8cdf-da66842c7c4a">
 <br>
 My secret ingredient..."The Opinion Algorythm" will never be posted but is a part of backend data structures- <br>
-A girl should always keep atleast one secret!
+A girl should always keep atleast one secret!<br>
+(Well GitHub is also making me keep more secrets LOL! I have been flagged to be excessive in this work, and not all files are loading anymore.) <br>
+What the API and Pipelines are structured to look like.
+<img width="430" height="326" alt="Screenshot 2025-08-21 at 3 02 23 PM" src="https://github.com/user-attachments/assets/b8664fd6-762b-4246-a54f-04862cfcbdba" />
